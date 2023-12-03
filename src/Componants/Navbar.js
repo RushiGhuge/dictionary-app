@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='navbar'>
             <h1>Dictionary App</h1>
             <div className='links'>
-                <Link to="/">Home</Link>
+                <Link to="/dictionary-app/">Home</Link>
                 <Link to="/history">History</Link>
             </div>
         </div>

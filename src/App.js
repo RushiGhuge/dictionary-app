@@ -17,8 +17,8 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="history" element={<History />} />
+        <Route path="/dictionary-app/" element={<Home />} />
+        <Route path="/history" element={<History />} />
         {history.length > 0 &&
           history.map((item, idx) => {
             console.log(idx);
