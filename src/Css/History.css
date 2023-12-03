@@ -1,0 +1,12 @@
+.history-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+.history-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}

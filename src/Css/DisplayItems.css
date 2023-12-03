@@ -1,0 +1,25 @@
+.display-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+.display-item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 4px 4px 10px gray;
+    gap: 15px;
+    border-radius: 14px;
+}
+
+.audio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.defination{
+   padding-top: 10px;
+}
